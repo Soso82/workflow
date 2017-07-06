@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - workflow@localhost" uuid="90836413-56ac-4061-b7e2-8f43a8beea3d">
+    <database-info product="MySQL" version="5.5.53" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="workflow"/>
+      <table id="2" parent="1" name="table_name"/>
+      <column id="3" parent="2" name="column_1">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="4" parent="2" name="column_2">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="5" parent="2" name="name">
+        <data-type>int(11)</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>

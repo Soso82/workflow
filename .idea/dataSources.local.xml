@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - workflow@localhost" uuid="90836413-56ac-4061-b7e2-8f43a8beea3d">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>workflow.*</schema-pattern>
+      <default-schemas>workflow.*</default-schemas>
+    </data-source>
+  </component>
+</project>
