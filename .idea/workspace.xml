@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f6eae88-4ec7-4210-9372-b13cde4c4b0d" name="Default" comment="">
+    <list default="true" id="1f6eae88-4ec7-4210-9372-b13cde4c4b0d" name="Default" comment="&#10;Домашка">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework1/dz1.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework1/dz1.php" afterPath="$PROJECT_DIR$/homework1/dz1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="workflow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,51 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dz1.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homework1/dz1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stop.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stop.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dobavil.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dobavil.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="187">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -94,10 +55,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/buy.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/dobavil.txt" />
         <option value="$PROJECT_DIR$/stop.php" />
         <option value="$PROJECT_DIR$/homework1/dz1.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/homework1/dz1.html" />
       </list>
     </option>
   </component>
@@ -341,7 +303,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499233336961</updated>
       <workItem from="1499233338407" duration="11075000" />
-      <workItem from="1500275173208" duration="3641000" />
+      <workItem from="1500275173208" duration="5527000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;new file stop">
       <created>1499344295856</created>
@@ -378,11 +340,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500278911363</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&#10;Домашка">
+      <created>1500283036041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1500283036041</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14716000" />
+    <option name="totallyTimeSpent" value="16602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,18 +484,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/homework1/dz1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework1/dz1.php">
+    <entry file="file://$PROJECT_DIR$/../localhost/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="204">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <marker date="1417711705253" expanded="true" signature="84:795" placeholder="..." />
+            <marker date="1417711705253" expanded="true" signature="91:198" placeholder="..." />
+            <marker date="1417711705253" expanded="false" signature="214:256" placeholder="..." />
+            <marker date="1417711705253" expanded="true" signature="258:787" placeholder="..." />
+            <marker date="1417711705253" expanded="true" signature="267:779" placeholder="..." />
+            <marker date="1417711705253" expanded="false" signature="294:307" placeholder="..." />
+            <marker date="1417711705253" expanded="true" signature="309:769" placeholder="..." />
+            <marker date="1417711705253" expanded="false" signature="324:409" placeholder="..." />
+            <marker date="1417711705253" expanded="false" signature="477:535" placeholder="..." />
+            <marker date="1417711705253" expanded="false" signature="593:607" placeholder="..." />
+            <marker date="1417711705253" expanded="false" signature="662:714" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework1/dz1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding />
         </state>
       </provider>
