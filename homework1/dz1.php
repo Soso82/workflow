@@ -1,4 +1,8 @@
 <?php
-$a=1;
-echo "$a";
->
+//ДЗ1
+$name = "Soslan";
+$age = 34;
+echo "Меня зовут .$name";
+echo "Мне .$age .года";
+echo "\"!|V"\"";
+?>
