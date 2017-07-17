@@ -13,5 +13,13 @@ $age = 34;
 echo "Меня зовут $name \n";
 echo "Мне $age года \n";
 ?>
+<h1> ДЗ2</h1>
+<?php
+$paint = 80;
+$flomast = 23;
+$karand = 40;
+$kraski = $paint-$flomast-$karand;
+echo $kraski;
+?>
 </body>
 </html>
