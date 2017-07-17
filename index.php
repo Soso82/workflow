@@ -6,12 +6,15 @@
 
 </head>
 <body>
+<style >
+	.array{border: 1px solid #000;}
+</style>
 <h1> ДЗ 1</h1>
 <?php
 $name = "Сослан";
 $age = 34;
 echo "Меня зовут $name \n";
-
+echo"<br/>";
 echo "Мне $age года \n";
 ?>
 <h1> ДЗ 2</h1>
@@ -72,5 +75,49 @@ switch ($day) {
 
 	}
 ?>
+<h1> ДЗ 6</h1>
+<div style="border:1px solid #000;width: 50%; text-align: center;">
+<?php
+$bmw = array(
+	'model' => X5,
+	'speed' => 200,
+	'doors' => 5,
+	'year' => 2017, 
+	);
+echo"<br/>";
+echo"<p>";
+echo "CAR bmw";
+echo"<br/>";
+echo $bmw[model]." ".$bmw[speed]." ".$bmw[doors]." ".$bmw[year];
+echo"</p>";	
+
+$toyota = array(
+	'model' => Camry,
+	'speed' => 200,
+	'doors' => 4,
+	'year' => 2016, 
+	);
+echo"<br/>";
+echo"<p>";
+echo "CAR Toyota";
+echo"<br/>";
+echo $toyota[model]." ".$toyota[speed]." ".$toyota[doors]." ".$toyota[year];
+echo"</p>";	
+
+$opel = array(
+	'model' => Corsa,
+	'speed' => 180,
+	'doors' => 4,
+	'year' => 2015, 
+	);
+echo"<br/>";
+echo"<p>";
+echo "CAR Toyota";
+echo"<br/>";
+echo $opel[model]." ".$opel[speed]." ".$opel[doors]." ".$opel[year];
+echo"</p>";
+$newarray = array_merge ($bmw, $toyota, $opel);
+print_r($newarray);	
+?></div>
 </body>
 </html>
