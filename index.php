@@ -19,7 +19,7 @@ $paint = 80;
 $flomast = 23;
 $karand = 40;
 $kraski = $paint-$flomast-$karand;
-echo $kraski;
+echo "Картин выполненных красками $kraski";
 ?>
 </body>
 </html>
