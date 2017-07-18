@@ -117,7 +117,35 @@ echo"<br/>";
 echo $opel[model]." ".$opel[speed]." ".$opel[doors]." ".$opel[year];
 echo"</p>";
 $newarray = array_merge ($bmw, $toyota, $opel);
-print_r($newarray);	
+print_r($newarray);
 ?></div>
+
+<h1> ДЗ 7</h1>
+
+
+<table cellpadding="5" border = "1">
+<?php
+for($i = 1; $i <= 10; $i++) {
+echo'<tr>';
+for($n = 1; $n <= 10; $n++)
+{ 
+$s=$n*$i;
+echo '<td>';
+
+if(($s)%2==0) echo "<div> ($s) </div>";
+elseif(($s)%2==1) print "<div> [$s] </div>";
+
+else echo $s;
+}
+}
+
+
+
+
+
+
+
+?>
+
 </body>
 </html>
