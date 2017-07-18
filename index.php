@@ -45,22 +45,14 @@ elseif ($age > 65) {
 ?>
 <h1> ДЗ 5</h1>
 <?php
-$day = 6;
+$day = 1;
 switch ($day) {
 	
-	case $day = 1:
-		echo "Это рабочий день";
-		break;
-	case $day = 2:
-		echo "Это рабочий день";
-		break;
-	case $day = 3:
-		echo "Это рабочий день";
-		break;
-	case $day = 4:
-		echo "Это рабочий день";
-		break;
-	case $day = 5:
+	case 1:
+	case 2:
+	case 3:
+	case 4:
+	case 5:
 		echo "Это рабочий день";
 		break;
 	case $day = 6 || $day = 7:
@@ -76,45 +68,36 @@ switch ($day) {
 <div style="border:1px solid #000;width: 50%; text-align: center;">
 <?php
 $bmw = array(
-	'model' => X5,
+	'model' => "X5",
 	'speed' => 200,
 	'doors' => 5,
 	'year' => 2017, 
 	);
-echo"<br/>";
-echo"<p>";
-echo "CAR bmw";
-echo"<br/>";
-echo $bmw[model]." ".$bmw[speed]." ".$bmw[doors]." ".$bmw[year];
-echo"</p>";	
 
 $toyota = array(
-	'model' => Camry,
+	'model' => "Camry",
 	'speed' => 200,
 	'doors' => 4,
 	'year' => 2016, 
 	);
-echo"<br/>";
-echo"<p>";
-echo "CAR Toyota";
-echo"<br/>";
-echo $toyota[model]." ".$toyota[speed]." ".$toyota[doors]." ".$toyota[year];
-echo"</p>";	
 
 $opel = array(
-	'model' => Corsa,
+	'model' => "Corsa",
 	'speed' => 180,
 	'doors' => 4,
 	'year' => 2015, 
 	);
-echo"<br/>";
-echo"<p>";
-echo "CAR Opel";
-echo"<br/>";
-echo $opel[model]." ".$opel[speed]." ".$opel[doors]." ".$opel[year];
-echo"</p>";
-$newarray = array_merge ($bmw, $toyota, $opel);
-print_r($newarray);
+
+$cars = Array(
+    "bmw" => $bmw,
+    "toyota" => $toyota,
+    "opel" => $opel
+);
+
+foreach ($cars as $table => $value) {
+	echo $cars;
+}
+
 ?></div>
 
 <h1> ДЗ 7</h1>
@@ -127,12 +110,14 @@ for($n = 1; $n <= 10; $n++)
 $s=$n*$i;
 echo '<td>';
 
-if(($s)%2==0) echo "<div> ($s) </div>";
-elseif(($s)%2==1) print "<div> [$s] </div>";
+if($s%2==0 || $n%2 == 0) echo "($s)";
+elseif($s%2 == 1 && $n%2 == 1) print "<div> [$s] </div>";
 
 else echo $s;
 }
 }
+echo '</td>';
+echo '</tr>';
 ?>
 </table>
 <h1> ДЗ 8</h1>
