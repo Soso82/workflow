@@ -94,8 +94,9 @@ $cars = Array(
     "opel" => $opel
 );
 
-foreach ($cars as $table => $value) {
-	echo $cars;
+foreach ($cars as $key => $car) {
+    echo "CAR $key<br>";
+    echo "{$car["model"]} {$car["speed"]} {$car["doors"]} {$car["year"]}<br>";
 }
 
 ?></div>
@@ -125,8 +126,7 @@ echo '</tr>';
 $str = "Game Over";
 echo $str;
 $cat = explode("-",$str);
-echo "<br/>";
-print_r($cat);
+
 ?>
 </body>
 </html>
