@@ -6,16 +6,13 @@
 
 </head>
 <body>
-<style >
-	.array{border: 1px solid #000;}
-</style>
 <h1> ДЗ 1</h1>
 <?php
 $name = "Сослан";
 $age = 34;
-echo "Меня зовут $name \n";
+echo "Меня зовут $name";
 echo"<br/>";
-echo "Мне $age года \n";
+echo "Мне $age года";
 ?>
 <h1> ДЗ 2</h1>
 <?php
@@ -112,7 +109,7 @@ $opel = array(
 	);
 echo"<br/>";
 echo"<p>";
-echo "CAR Toyota";
+echo "CAR Opel";
 echo"<br/>";
 echo $opel[model]." ".$opel[speed]." ".$opel[doors]." ".$opel[year];
 echo"</p>";
@@ -121,8 +118,6 @@ print_r($newarray);
 ?></div>
 
 <h1> ДЗ 7</h1>
-
-
 <table cellpadding="5" border = "1">
 <?php
 for($i = 1; $i <= 10; $i++) {
@@ -138,14 +133,15 @@ elseif(($s)%2==1) print "<div> [$s] </div>";
 else echo $s;
 }
 }
-
-
-
-
-
-
-
 ?>
-
+</table>
+<h1> ДЗ 8</h1>
+<?php
+$str = "Game Over";
+echo $str;
+$cat = explode("-",$str);
+echo "<br/>";
+print_r($cat);
+?>
 </body>
 </html>
