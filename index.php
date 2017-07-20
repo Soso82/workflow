@@ -89,9 +89,9 @@ $opel = array(
 	);
 
 $cars = Array(
-    "bmw" => $bmw,
-    "toyota" => $toyota,
-    "opel" => $opel
+    "BMW" => $bmw,
+    "Toyota" => $toyota,
+    "Opel" => $opel
 );
 
 foreach ($cars as $key => $car) {
@@ -123,10 +123,22 @@ echo '</tr>';
 </table>
 <h1> ДЗ 8</h1>
 <?php
-$str = "Game Over";
-echo $str;
-$cat = explode("-",$str);
 
+$str = "1 2 3 4554 43 2 41 7 1";
+$arrStr = explode(' ', $str);
+echo "<pre>";
+print_r($arrStr);
+echo "</pre>";
+$length = count($arrStr);
+for ($i = 0; $i <= $length / 2; $i++) {
+    $buf = $arrStr[$length - $i - 1];
+    $arrStr[$length - $i - 1] = $arrStr[$i];
+    $arrStr[$i] = $buf;
+}
+echo "<pre>reverse ";
+print_r($arrStr);
+echo "</pre>";
+echo implode(" ! ", $arrStr);
 ?>
 </body>
 </html>
